@@ -1,0 +1,129 @@
+build-gen:
+  board: 
+  compiler: AC6
+  device: STM32F411RETx
+  generated-by: uVision version 5.43.1.0
+  processor:
+    core: Cortex-M4
+    dsp: off
+    endian: little
+    fpu: sp
+  add-path: 
+  components:
+    - component: ARM::CMSIS:CORE@6.1.1
+      from-pack: ARM::CMSIS@6.2.0
+    - component: ARM::CMSIS:DSP&Source@1.16.2
+      from-pack: ARM::CMSIS-DSP@1.16.2
+      files:
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/BasicMathFunctions/BasicMathFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/BasicMathFunctions/BasicMathFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/BayesFunctions/BayesFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/BayesFunctions/BayesFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/CommonTables/CommonTables.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/CommonTables/CommonTablesF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/ComplexMathFunctions/ComplexMathFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/ControllerFunctions/ControllerFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/DistanceFunctions/DistanceFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/DistanceFunctions/DistanceFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/FastMathFunctions/FastMathFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/FastMathFunctions/FastMathFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/FilteringFunctions/FilteringFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/FilteringFunctions/FilteringFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/InterpolationFunctions/InterpolationFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/InterpolationFunctions/InterpolationFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/MatrixFunctions/MatrixFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/MatrixFunctions/MatrixFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/QuaternionMathFunctions/QuaternionMathFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/SVMFunctions/SVMFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/SVMFunctions/SVMFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/StatisticsFunctions/StatisticsFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/StatisticsFunctions/StatisticsFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/SupportFunctions/SupportFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/SupportFunctions/SupportFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/TransformFunctions/TransformFunctions.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/TransformFunctions/TransformFunctionsF16.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Source/WindowFunctions/WindowFunctions.c
+          category: sourceC
+    - component: Keil::Compiler&ARM Compiler:Event Recorder&DAP@1.5.1
+      from-pack: Keil::ARM_Compiler@1.7.2
+      files:
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Source/EventRecorder.c
+          category: sourceC
+        - file: D:/embedded_projects/Embedded-Systems-Projects-master/ADC_basic/RTE/Compiler/EventRecorderConf.h
+          category: header
+    - component: Keil::Device:CubeMX@1.0.0
+      from-pack: Keil::STM32F4xx_DFP@3.1.0
+    - component: Keil::Network&MDK:CORE@8.1.0
+      from-pack: Keil::MDK-Middleware@8.1.0
+      files:
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_addr.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_base64.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_common.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_config.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_debug.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_icmp.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_icmp6.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_ip4.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_ip4_frag.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_ip6.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_ip6_frag.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_loopback.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_md5.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_mem.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_ping_core.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_sys.c
+          category: sourceC
+        - file: C:/Users/sures/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.1.0/Components/Network/Source/net_version.c
+          category: sourceC
+        - file: D:/embedded_projects/Embedded-Systems-Projects-master/ADC_basic/RTE/Network/Net_Config.h
+          category: header
+        - file: D:/embedded_projects/Embedded-Systems-Projects-master/ADC_basic/RTE/Network/Net_Debug.h
+          category: header
+  apis: 
+  groups:
+    - group: Source Group 1
+      files: 

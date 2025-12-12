@@ -1,0 +1,5 @@
+load STM32F411RETx
+project name STM32CubeMX
+project toolchain "MDK-ARM V5"
+project path "D:\embedded_projects\Embedded-Systems-Projects-master\ADC_basic\STM32CubeMX\Target_1"
+SetCopyLibrary "copy only"
